@@ -1,12 +1,14 @@
-# COMPEON Rubocop defaults
+# COMPEON Ruby Styleguide
+
+## Rubocop defaults
 
 This repo contains the COMPEON default Rubocop configuration which is shared across all projects.
 
-## Usecase
+### Usecase
 
 Add this at the begin of your `.rubocop.yml` file.
 
 ```yaml
 inherit_from:
-  - 'https://raw.githubusercontent.com/COMPEON/rubocop-defaults/master/.rubocop.yml'
+  - 'https://raw.githubusercontent.com/COMPEON/ruby-styleguide/master/.rubocop.yml'
 ```
