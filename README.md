@@ -15,7 +15,7 @@ inherit_from:
 
 ### Customization
 
-If you want to overwrite some of the defaults, you maybe need to add this too.
+If you want to overwrite some of the defaults, you might need to add this too.
 
 ```yaml
 inherit_mode:
