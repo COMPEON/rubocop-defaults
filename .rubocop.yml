@@ -14,6 +14,9 @@ Layout/HashAlignment:
   EnforcedHashRocketStyle: key
   EnforcedColonStyle: key
 
+Lint/MissingSuper:
+  Enabled: false
+
 Metrics/BlockLength:
   Enabled: false
 
