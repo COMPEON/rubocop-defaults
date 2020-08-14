@@ -1,33 +1,3 @@
-require:
-  - 'rubocop-performance'
-
-AllCops:
-  NewCops: enable
-
-Bundler/OrderedGems:
-  Enabled: false
-
-Layout/ClassStructure:
-  Enabled: true
-
-Layout/HashAlignment:
-  EnforcedHashRocketStyle: key
-  EnforcedColonStyle: key
-
-Lint/MissingSuper:
-  Enabled: false
-
-Metrics/BlockLength:
-  Enabled: false
-
-Metrics/ClassLength:
-  Enabled: false
-
-Metrics/ModuleLength:
-  Enabled: false
-
-Style/Documentation:
-  Enabled: false
-
-Style/ReturnNil:
-  Enabled: true
+Naming/FileName:
+ Exclude:
+   - lib/rubocop-compeon.rb
